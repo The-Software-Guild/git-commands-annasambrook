@@ -21,7 +21,7 @@ public class GuessMeMore {
         Scanner myScanner = new Scanner(System.in);
         Random rng = new Random();
         
-        myNumber = rng.nextInt(101);
+        myNumber = rng.nextInt(201) -100;
         
         System.out.println("Ive chosen a number. Betcha can't guess it!");
         System.out.println("Pick a whole number");
